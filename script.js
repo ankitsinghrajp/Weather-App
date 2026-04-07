@@ -3,7 +3,7 @@ let show = document.getElementById("show");
 let search = document.getElementById("search");
 let cityVal = document.getElementById("city");
 
-let key = "2f745fa85d563da5adb87b6cd4b81caf";
+let key = process.env.WEATHER_API_KEY;
 
 let getWeather = () => {
   let cityValue = cityVal.value;
