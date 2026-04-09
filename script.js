@@ -3,7 +3,7 @@ let show = document.getElementById("show");
 let search = document.getElementById("search");
 let cityVal = document.getElementById("city");
 
-let key = process.env.WEATHER_API_KEY;
+// API key should not be exposed in client-side code
 
 let getWeather = () => {
   let cityValue = cityVal.value;
