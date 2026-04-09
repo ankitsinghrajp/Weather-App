@@ -19,7 +19,7 @@
           id="city"
           value="UJJAIN"
           autocomplete="off"
-          oninput="this.value = this.value.replace(/<[^>]*>/g, '')"
+          oninput="this.value = this.value.replace(/<[^>]*>/g, '').replace(/&/g, '&amp;').replace(/'/g, '&apos;').replace(/"/g, '&quot;')"
         />
         <button id="search">
           <ion-icon class="icon" name="search"></ion-icon>
