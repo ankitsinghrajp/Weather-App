@@ -63,7 +63,7 @@ body {
   font-size: 1.6rem;
   color:var(--dark-color);
 }
-.search_box input::placeholder {
+#show img { filter: drop-shadow(0 1.8rem 3.7rem var(--box_shadow)); }
   color: var(--dark-color);
 }
 .search_box button {
