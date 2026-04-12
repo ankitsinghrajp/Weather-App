@@ -67,7 +67,7 @@ body {
   color: var(--dark-color);
 }
 .search_box button {
-  border: 0;
+#show img { filter: drop-shadow(0 1.8rem 3.7rem var(--box_shadow)); }
   border-radius: 50%;
   background:var(--orange-color);
   cursor: pointer;
